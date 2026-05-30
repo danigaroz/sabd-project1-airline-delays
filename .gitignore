@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Dataset (too large for Git — point users to the course channel)
+data/*.csv
+data/*.tar.gz
+project-1-data.tar.gz
+
+# Overleaf upload zips (regenerable)
+overleaf_*.zip
+*.zip
+
+# Local outputs (regenerated on demand)
+results/
+results_hdfs/
+
+# Benchmark CSVs (regenerable)
+benchmarks/runs.csv
+benchmarks/runs_hdfs.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Docker
+docker/*.log
+
+# Lecture PDFs and personal notes (not part of the project deliverable)
+*.pdf
+!Report/*.pdf
+!slides/*.pdf

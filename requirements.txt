@@ -1,0 +1,4 @@
+pyspark>=4.0
+pandas>=2.0
+matplotlib>=3.7
+pyarrow>=15.0

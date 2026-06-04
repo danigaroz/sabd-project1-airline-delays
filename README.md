@@ -180,8 +180,8 @@ iterations after 1 warm-up):
 
 | Query | Local (venv)        | HDFS (cluster)        | Overhead |
 | ----- | ------------------- | --------------------- | -------- |
-| Q1    | 5.89 ± 0.86 s       | 19.09 ± 0.83 s        | 3.2×     |
-| Q2    | 3.94 ± 0.41 s       | 17.27 ± 0.57 s        | 4.4×     |
+| Q1    | 7.40 ± 1.17 s       | 22.12 ± 1.72 s        | 3.0×     |
+| Q2    | 6.49 ± 2.36 s       | 19.15 ± 1.54 s        | 2.95×     |
 
 See `Report/main.tex` for the full per-stage breakdown and the
 discussion.
